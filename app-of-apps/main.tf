@@ -1,5 +1,3 @@
-provider "argocd" {}
-
 resource "argocd_repository" "this" {
   repo = var.repo_url
   type = "git"
